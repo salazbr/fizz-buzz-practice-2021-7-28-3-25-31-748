@@ -88,4 +88,18 @@ public class FizzBuzzTest {
         // then
         assertEquals(expected,actual);
     }
+
+    @Test
+    void should_return_BuzzWhizz_when_count_off_given_multiple_of_35(){
+        //given
+
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        String expected = "BuzzWhizz";
+
+        // when
+        String actual = fizzBuzz.countOff(35);
+
+        // then
+        assertEquals(expected,actual);
+    }
 }
