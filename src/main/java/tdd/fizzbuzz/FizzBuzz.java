@@ -19,6 +19,10 @@ public class FizzBuzz {
             return FizzWhizz;
         }
 
+        if(number % 5 == 0 && number % 7 == 0){
+            return FizzWhizz;
+        }
+
         if(number % 3 == 0){
             return FIZZ;
         }
