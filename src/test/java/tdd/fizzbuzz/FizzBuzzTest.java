@@ -28,7 +28,7 @@ public class FizzBuzzTest {
 
         // when
         String actual = fizzBuzz.countOff(9);
-        
+
         // then
         assertEquals(expected,actual);
     }
@@ -70,6 +70,20 @@ public class FizzBuzzTest {
 
         // when
         String actual = fizzBuzz.countOff(15);
+
+        // then
+        assertEquals(expected,actual);
+    }
+
+    @Test
+    void should_return_FizzWhizz_when_count_off_given_multiple_of_21(){
+        //given
+
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        String expected = "FizzWhizz";
+
+        // when
+        String actual = fizzBuzz.countOff(21);
 
         // then
         assertEquals(expected,actual);
