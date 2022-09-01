@@ -8,8 +8,14 @@ public class FizzBuzz {
         final String WHIZZ = "Whizz";
         final String FizzBuzz = "FizzBuzz";
         final String FizzWhizz = "FizzWhizz";
+        final String BuzzWhizz = "BuzzWhizz";
+        final String FizzBuzzWhizz = "FizzBuzzWhizz";
 
         String normalNumber = String.valueOf(number);
+
+        if(number % 3 == 0 && number % 5 == 0 && (number % 7 == 0)){
+            return FizzBuzzWhizz;
+        }
 
         if(number % 3 == 0 && number % 5 == 0){
             return FizzBuzz;
@@ -20,7 +26,7 @@ public class FizzBuzz {
         }
 
         if(number % 5 == 0 && number % 7 == 0){
-            return FizzWhizz;
+            return BuzzWhizz;
         }
 
         if(number % 3 == 0){
