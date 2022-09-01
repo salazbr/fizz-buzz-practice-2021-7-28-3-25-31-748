@@ -20,7 +20,7 @@ public class FizzBuzzTest {
         assertEquals(expected,actual);
     }
     @Test
-    void should_return_3_when_count_off_given_Fizz(){
+    void should_return_Fizz_when_count_off_given_multiple_of_3(){
         //given
 
         FizzBuzz fizzBuzz = new FizzBuzz();
@@ -35,7 +35,7 @@ public class FizzBuzzTest {
     }
 
     @Test
-    void should_return_5_when_count_off_given_Buzz(){
+    void should_return_Buzz_when_count_off_given_multiple_of_5(){
         //given
 
         FizzBuzz fizzBuzz = new FizzBuzz();
@@ -50,7 +50,7 @@ public class FizzBuzzTest {
     }
 
     @Test
-    void should_return_Buzz_when_count_off_given_multiple_of_7(){
+    void should_return_Whizz_when_count_off_given_multiple_of_7(){
         //given
 
         FizzBuzz fizzBuzz = new FizzBuzz();
