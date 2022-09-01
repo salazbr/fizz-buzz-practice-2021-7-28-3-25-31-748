@@ -28,8 +28,7 @@ public class FizzBuzzTest {
 
         // when
         String actual = fizzBuzz.countOff(9);
-
-
+        
         // then
         assertEquals(expected,actual);
     }
@@ -43,7 +42,6 @@ public class FizzBuzzTest {
 
         // when
         String actual = fizzBuzz.countOff(10);
-
 
         // then
         assertEquals(expected,actual);
@@ -59,7 +57,6 @@ public class FizzBuzzTest {
         // when
         String actual = fizzBuzz.countOff(14);
 
-
         // then
         assertEquals(expected,actual);
     }
@@ -73,7 +70,6 @@ public class FizzBuzzTest {
 
         // when
         String actual = fizzBuzz.countOff(15);
-
 
         // then
         assertEquals(expected,actual);
